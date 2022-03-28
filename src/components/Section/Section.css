@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.section {
+  margin: 105px auto;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border: 1px solid rgb(59, 55, 55);
+  border-top: none;
+  height: 300px;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.section-about {
+  width: 40%;
+}
+.section-info {
+  width: 40%;
+}
+
+.section-title {
+  color: rgb(73, 70, 70);
+}
+
+.description {
+  color: rgb(56, 51, 51);
+}
