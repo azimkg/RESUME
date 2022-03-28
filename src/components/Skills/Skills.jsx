@@ -7,12 +7,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <Link to="/">
-        <img
-          src="https://cdn-icons.flaticon.com/png/512/5974/premium/5974636.png?token=exp=1648497768~hmac=e4fab3c54afb1d65fe84c54fc334fa68"
-          alt="HOME"
-          width="50px"
-          style={{ marginTop: "150px" }}
-        />
+        <button className="class">Home</button>
       </Link>
       <div className="skills-container">
         <h2 className="skills-title">

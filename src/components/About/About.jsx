@@ -6,13 +6,8 @@ const About = () => {
   return (
     <div className="about">
       <Link to="/">
-        <img
-          src="https://cdn-icons.flaticon.com/png/512/5974/premium/5974636.png?token=exp=1648495412~hmac=d2010b62c503c40c9742795cfe872885"
-          alt="Home"
-          width="50px"
-        />
+        <button className="class">Home</button>
       </Link>
-
       <div className="about-container">
         <h1 className="title-about">
           Completed three major projects. Worked in giant companies like:
